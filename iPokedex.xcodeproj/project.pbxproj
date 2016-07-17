@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		690078DC1D3C2E9700C87E79 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 690078C71D3C2E9600C87E79 /* Info.plist */; };
+		690078DD1D3C2E9700C87E79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 690078CA1D3C2E9600C87E79 /* AppDelegate.m */; };
+		690078DE1D3C2E9700C87E79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 690078CB1D3C2E9700C87E79 /* main.m */; };
+		690078DF1D3C2E9700C87E79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 690078CD1D3C2E9700C87E79 /* Assets.xcassets */; };
+		690078E01D3C2E9700C87E79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 690078CE1D3C2E9700C87E79 /* LaunchScreen.storyboard */; };
+		690078E11D3C2E9700C87E79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 690078D01D3C2E9700C87E79 /* Main.storyboard */; };
+		690078E21D3C2E9700C87E79 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 690078D61D3C2E9700C87E79 /* ViewController.m */; };
+		690078E31D3C2E9700C87E79 /* iPokedex.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 690078D81D3C2E9700C87E79 /* iPokedex.xcdatamodeld */; };
+		690078E51D3C2ED300C87E79 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 690078E41D3C2ED300C87E79 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		690078A91D3C2BD800C87E79 /* iPokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		690078C71D3C2E9600C87E79 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		690078C91D3C2E9600C87E79 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		690078CA1D3C2E9600C87E79 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		690078CB1D3C2E9700C87E79 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		690078CD1D3C2E9700C87E79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		690078CF1D3C2E9700C87E79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		690078D11D3C2E9700C87E79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		690078D51D3C2E9700C87E79 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		690078D61D3C2E9700C87E79 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		690078D91D3C2E9700C87E79 /* iPokedex.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iPokedex.xcdatamodel; sourceTree = "<group>"; };
+		690078E41D3C2ED300C87E79 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		690078A61D3C2BD800C87E79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		690078A01D3C2BD800C87E79 = {
+			isa = PBXGroup;
+			children = (
+				690078E41D3C2ED300C87E79 /* Default-568h@2x.png */,
+				690078AB1D3C2BD800C87E79 /* iPokedex */,
+				690078AA1D3C2BD800C87E79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		690078AA1D3C2BD800C87E79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				690078A91D3C2BD800C87E79 /* iPokedex.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		690078AB1D3C2BD800C87E79 /* iPokedex */ = {
+			isa = PBXGroup;
+			children = (
+				690078C61D3C2E9600C87E79 /* Conf */,
+				690078C81D3C2E9600C87E79 /* Misc */,
+				690078CC1D3C2E9700C87E79 /* Res */,
+				690078D21D3C2E9700C87E79 /* Src */,
+			);
+			path = iPokedex;
+			sourceTree = "<group>";
+		};
+		690078C61D3C2E9600C87E79 /* Conf */ = {
+			isa = PBXGroup;
+			children = (
+				690078C71D3C2E9600C87E79 /* Info.plist */,
+			);
+			path = Conf;
+			sourceTree = "<group>";
+		};
+		690078C81D3C2E9600C87E79 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				690078C91D3C2E9600C87E79 /* AppDelegate.h */,
+				690078CA1D3C2E9600C87E79 /* AppDelegate.m */,
+				690078CB1D3C2E9700C87E79 /* main.m */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		690078CC1D3C2E9700C87E79 /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				690078CD1D3C2E9700C87E79 /* Assets.xcassets */,
+				690078CE1D3C2E9700C87E79 /* LaunchScreen.storyboard */,
+				690078D01D3C2E9700C87E79 /* Main.storyboard */,
+			);
+			path = Res;
+			sourceTree = "<group>";
+		};
+		690078D21D3C2E9700C87E79 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				690078D31D3C2E9700C87E79 /* Categories */,
+				690078D41D3C2E9700C87E79 /* Controllers */,
+				690078D71D3C2E9700C87E79 /* CoreData */,
+				690078DA1D3C2E9700C87E79 /* Helpers */,
+				690078DB1D3C2E9700C87E79 /* Services */,
+			);
+			path = Src;
+			sourceTree = "<group>";
+		};
+		690078D31D3C2E9700C87E79 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		690078D41D3C2E9700C87E79 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				690078D51D3C2E9700C87E79 /* ViewController.h */,
+				690078D61D3C2E9700C87E79 /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		690078D71D3C2E9700C87E79 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				690078D81D3C2E9700C87E79 /* iPokedex.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		690078DA1D3C2E9700C87E79 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		690078DB1D3C2E9700C87E79 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		690078A81D3C2BD800C87E79 /* iPokedex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 690078C31D3C2BD800C87E79 /* Build configuration list for PBXNativeTarget "iPokedex" */;
+			buildPhases = (
+				690078A51D3C2BD800C87E79 /* Sources */,
+				690078A61D3C2BD800C87E79 /* Frameworks */,
+				690078A71D3C2BD800C87E79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPokedex;
+			productName = iPokedex;
+			productReference = 690078A91D3C2BD800C87E79 /* iPokedex.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		690078A11D3C2BD800C87E79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VFJ;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Cast Group";
+				TargetAttributes = {
+					690078A81D3C2BD800C87E79 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 690078A41D3C2BD800C87E79 /* Build configuration list for PBXProject "iPokedex" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 690078A01D3C2BD800C87E79;
+			productRefGroup = 690078AA1D3C2BD800C87E79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				690078A81D3C2BD800C87E79 /* iPokedex */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		690078A71D3C2BD800C87E79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				690078E01D3C2E9700C87E79 /* LaunchScreen.storyboard in Resources */,
+				690078DF1D3C2E9700C87E79 /* Assets.xcassets in Resources */,
+				690078DC1D3C2E9700C87E79 /* Info.plist in Resources */,
+				690078E51D3C2ED300C87E79 /* Default-568h@2x.png in Resources */,
+				690078E11D3C2E9700C87E79 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		690078A51D3C2BD800C87E79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				690078E21D3C2E9700C87E79 /* ViewController.m in Sources */,
+				690078DE1D3C2E9700C87E79 /* main.m in Sources */,
+				690078E31D3C2E9700C87E79 /* iPokedex.xcdatamodeld in Sources */,
+				690078DD1D3C2E9700C87E79 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		690078CE1D3C2E9700C87E79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				690078CF1D3C2E9700C87E79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		690078D01D3C2E9700C87E79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				690078D11D3C2E9700C87E79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		690078C11D3C2BD800C87E79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		690078C21D3C2BD800C87E79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		690078C41D3C2BD800C87E79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/iPokedex/Conf/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.castgroup.iPokedex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		690078C51D3C2BD800C87E79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/iPokedex/Conf/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.castgroup.iPokedex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		690078A41D3C2BD800C87E79 /* Build configuration list for PBXProject "iPokedex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				690078C11D3C2BD800C87E79 /* Debug */,
+				690078C21D3C2BD800C87E79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		690078C31D3C2BD800C87E79 /* Build configuration list for PBXNativeTarget "iPokedex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				690078C41D3C2BD800C87E79 /* Debug */,
+				690078C51D3C2BD800C87E79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		690078D81D3C2E9700C87E79 /* iPokedex.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				690078D91D3C2E9700C87E79 /* iPokedex.xcdatamodel */,
+			);
+			currentVersion = 690078D91D3C2E9700C87E79 /* iPokedex.xcdatamodel */;
+			path = iPokedex.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 690078A11D3C2BD800C87E79 /* Project object */;
+}
