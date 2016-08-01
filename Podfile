@@ -6,7 +6,7 @@ platform :ios, '8.0'
 xcodeproj ‘iPokedex.xcodeproj'
 
 target 'iPokedex' do
-    pod 'RestKit', '~> 0.24.0'
+    pod 'RestKit', '~> 0.27.0'
     workspace 'iPokedex.xcworkspace'
 end
 
