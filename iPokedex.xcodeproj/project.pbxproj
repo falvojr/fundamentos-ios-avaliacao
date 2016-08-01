@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		690078DC1D3C2E9700C87E79 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 690078C71D3C2E9600C87E79 /* Info.plist */; };
 		690078DD1D3C2E9700C87E79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 690078CA1D3C2E9600C87E79 /* AppDelegate.m */; };
 		690078DE1D3C2E9700C87E79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 690078CB1D3C2E9700C87E79 /* main.m */; };
 		690078DF1D3C2E9700C87E79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 690078CD1D3C2E9700C87E79 /* Assets.xcassets */; };
@@ -16,9 +15,22 @@
 		690078E21D3C2E9700C87E79 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 690078D61D3C2E9700C87E79 /* ViewController.m */; };
 		690078E31D3C2E9700C87E79 /* iPokedex.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 690078D81D3C2E9700C87E79 /* iPokedex.xcdatamodeld */; };
 		690078E51D3C2ED300C87E79 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 690078E41D3C2ED300C87E79 /* Default-568h@2x.png */; };
+		695B85E01D4FD5D300C74003 /* VFJAbilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 695B85CB1D4FD5D300C74003 /* VFJAbilities.m */; };
+		695B85E11D4FD5D300C74003 /* VFJGameIndices.m in Sources */ = {isa = PBXBuildFile; fileRef = 695B85CD1D4FD5D300C74003 /* VFJGameIndices.m */; };
+		695B85E21D4FD5D300C74003 /* VFJGeneration.m in Sources */ = {isa = PBXBuildFile; fileRef = 695B85CF1D4FD5D300C74003 /* VFJGeneration.m */; };
+		695B85E31D4FD5D300C74003 /* VFJMoves.m in Sources */ = {isa = PBXBuildFile; fileRef = 695B85D11D4FD5D300C74003 /* VFJMoves.m */; };
+		695B85E41D4FD5D300C74003 /* VFJNames.m in Sources */ = {isa = PBXBuildFile; fileRef = 695B85D31D4FD5D300C74003 /* VFJNames.m */; };
+		695B85E51D4FD5D300C74003 /* VFJPokemon.m in Sources */ = {isa = PBXBuildFile; fileRef = 695B85D51D4FD5D300C74003 /* VFJPokemon.m */; };
+		695B85E61D4FD5D300C74003 /* VFJResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 695B85D71D4FD5D300C74003 /* VFJResource.m */; };
+		695B85E71D4FD5D300C74003 /* VFJSprites.m in Sources */ = {isa = PBXBuildFile; fileRef = 695B85D91D4FD5D300C74003 /* VFJSprites.m */; };
+		695B85E81D4FD5D300C74003 /* VFJStats.m in Sources */ = {isa = PBXBuildFile; fileRef = 695B85DB1D4FD5D300C74003 /* VFJStats.m */; };
+		695B85E91D4FD5D300C74003 /* VFJTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 695B85DD1D4FD5D300C74003 /* VFJTypes.m */; };
+		695B85EA1D4FD5D300C74003 /* VFJVersionGroupDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 695B85DF1D4FD5D300C74003 /* VFJVersionGroupDetails.m */; };
+		8BF60FC76A121477FA2C62D9 /* libPods-iPokedex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 792D62996C97E7C2E17EC00A /* libPods-iPokedex.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3116B47923F063910BF258A9 /* Pods-iPokedex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPokedex.release.xcconfig"; path = "Pods/Target Support Files/Pods-iPokedex/Pods-iPokedex.release.xcconfig"; sourceTree = "<group>"; };
 		690078A91D3C2BD800C87E79 /* iPokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		690078C71D3C2E9600C87E79 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		690078C91D3C2E9600C87E79 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -31,6 +43,30 @@
 		690078D61D3C2E9700C87E79 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		690078D91D3C2E9700C87E79 /* iPokedex.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iPokedex.xcdatamodel; sourceTree = "<group>"; };
 		690078E41D3C2ED300C87E79 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		695B85CA1D4FD5D300C74003 /* VFJAbilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFJAbilities.h; sourceTree = "<group>"; };
+		695B85CB1D4FD5D300C74003 /* VFJAbilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFJAbilities.m; sourceTree = "<group>"; };
+		695B85CC1D4FD5D300C74003 /* VFJGameIndices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFJGameIndices.h; sourceTree = "<group>"; };
+		695B85CD1D4FD5D300C74003 /* VFJGameIndices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFJGameIndices.m; sourceTree = "<group>"; };
+		695B85CE1D4FD5D300C74003 /* VFJGeneration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFJGeneration.h; sourceTree = "<group>"; };
+		695B85CF1D4FD5D300C74003 /* VFJGeneration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFJGeneration.m; sourceTree = "<group>"; };
+		695B85D01D4FD5D300C74003 /* VFJMoves.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFJMoves.h; sourceTree = "<group>"; };
+		695B85D11D4FD5D300C74003 /* VFJMoves.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFJMoves.m; sourceTree = "<group>"; };
+		695B85D21D4FD5D300C74003 /* VFJNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFJNames.h; sourceTree = "<group>"; };
+		695B85D31D4FD5D300C74003 /* VFJNames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFJNames.m; sourceTree = "<group>"; };
+		695B85D41D4FD5D300C74003 /* VFJPokemon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFJPokemon.h; sourceTree = "<group>"; };
+		695B85D51D4FD5D300C74003 /* VFJPokemon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFJPokemon.m; sourceTree = "<group>"; };
+		695B85D61D4FD5D300C74003 /* VFJResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFJResource.h; sourceTree = "<group>"; };
+		695B85D71D4FD5D300C74003 /* VFJResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFJResource.m; sourceTree = "<group>"; };
+		695B85D81D4FD5D300C74003 /* VFJSprites.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFJSprites.h; sourceTree = "<group>"; };
+		695B85D91D4FD5D300C74003 /* VFJSprites.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFJSprites.m; sourceTree = "<group>"; };
+		695B85DA1D4FD5D300C74003 /* VFJStats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFJStats.h; sourceTree = "<group>"; };
+		695B85DB1D4FD5D300C74003 /* VFJStats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFJStats.m; sourceTree = "<group>"; };
+		695B85DC1D4FD5D300C74003 /* VFJTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFJTypes.h; sourceTree = "<group>"; };
+		695B85DD1D4FD5D300C74003 /* VFJTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFJTypes.m; sourceTree = "<group>"; };
+		695B85DE1D4FD5D300C74003 /* VFJVersionGroupDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFJVersionGroupDetails.h; sourceTree = "<group>"; };
+		695B85DF1D4FD5D300C74003 /* VFJVersionGroupDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFJVersionGroupDetails.m; sourceTree = "<group>"; };
+		73F7F21F05480EFBBB1F8BA6 /* Pods-iPokedex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPokedex.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iPokedex/Pods-iPokedex.debug.xcconfig"; sourceTree = "<group>"; };
+		792D62996C97E7C2E17EC00A /* libPods-iPokedex.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iPokedex.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,18 +74,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BF60FC76A121477FA2C62D9 /* libPods-iPokedex.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21105181B36CB4235B2E8A36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				792D62996C97E7C2E17EC00A /* libPods-iPokedex.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60EB4B77CCAFB099C8AD94E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73F7F21F05480EFBBB1F8BA6 /* Pods-iPokedex.debug.xcconfig */,
+				3116B47923F063910BF258A9 /* Pods-iPokedex.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		690078A01D3C2BD800C87E79 = {
 			isa = PBXGroup;
 			children = (
 				690078E41D3C2ED300C87E79 /* Default-568h@2x.png */,
 				690078AB1D3C2BD800C87E79 /* iPokedex */,
 				690078AA1D3C2BD800C87E79 /* Products */,
+				60EB4B77CCAFB099C8AD94E1 /* Pods */,
+				21105181B36CB4235B2E8A36 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,11 +159,11 @@
 		690078D21D3C2E9700C87E79 /* Src */ = {
 			isa = PBXGroup;
 			children = (
+				695B85C91D4FD5D300C74003 /* Models */,
 				690078D31D3C2E9700C87E79 /* Categories */,
 				690078D41D3C2E9700C87E79 /* Controllers */,
 				690078D71D3C2E9700C87E79 /* CoreData */,
 				690078DA1D3C2E9700C87E79 /* Helpers */,
-				690078DB1D3C2E9700C87E79 /* Services */,
 			);
 			path = Src;
 			sourceTree = "<group>";
@@ -143,11 +199,33 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
-		690078DB1D3C2E9700C87E79 /* Services */ = {
+		695B85C91D4FD5D300C74003 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				695B85CA1D4FD5D300C74003 /* VFJAbilities.h */,
+				695B85CB1D4FD5D300C74003 /* VFJAbilities.m */,
+				695B85CC1D4FD5D300C74003 /* VFJGameIndices.h */,
+				695B85CD1D4FD5D300C74003 /* VFJGameIndices.m */,
+				695B85CE1D4FD5D300C74003 /* VFJGeneration.h */,
+				695B85CF1D4FD5D300C74003 /* VFJGeneration.m */,
+				695B85D01D4FD5D300C74003 /* VFJMoves.h */,
+				695B85D11D4FD5D300C74003 /* VFJMoves.m */,
+				695B85D21D4FD5D300C74003 /* VFJNames.h */,
+				695B85D31D4FD5D300C74003 /* VFJNames.m */,
+				695B85D41D4FD5D300C74003 /* VFJPokemon.h */,
+				695B85D51D4FD5D300C74003 /* VFJPokemon.m */,
+				695B85D61D4FD5D300C74003 /* VFJResource.h */,
+				695B85D71D4FD5D300C74003 /* VFJResource.m */,
+				695B85D81D4FD5D300C74003 /* VFJSprites.h */,
+				695B85D91D4FD5D300C74003 /* VFJSprites.m */,
+				695B85DA1D4FD5D300C74003 /* VFJStats.h */,
+				695B85DB1D4FD5D300C74003 /* VFJStats.m */,
+				695B85DC1D4FD5D300C74003 /* VFJTypes.h */,
+				695B85DD1D4FD5D300C74003 /* VFJTypes.m */,
+				695B85DE1D4FD5D300C74003 /* VFJVersionGroupDetails.h */,
+				695B85DF1D4FD5D300C74003 /* VFJVersionGroupDetails.m */,
 			);
-			path = Services;
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,9 +235,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 690078C31D3C2BD800C87E79 /* Build configuration list for PBXNativeTarget "iPokedex" */;
 			buildPhases = (
+				984D5471DB62EE36E4599EF9 /* Check Pods Manifest.lock */,
 				690078A51D3C2BD800C87E79 /* Sources */,
 				690078A61D3C2BD800C87E79 /* Frameworks */,
 				690078A71D3C2BD800C87E79 /* Resources */,
+				E313204427DBAFA6F2200A12 /* Embed Pods Frameworks */,
+				C92442B82B6C66F18E8C311B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -210,13 +291,60 @@
 			files = (
 				690078E01D3C2E9700C87E79 /* LaunchScreen.storyboard in Resources */,
 				690078DF1D3C2E9700C87E79 /* Assets.xcassets in Resources */,
-				690078DC1D3C2E9700C87E79 /* Info.plist in Resources */,
 				690078E51D3C2ED300C87E79 /* Default-568h@2x.png in Resources */,
 				690078E11D3C2E9700C87E79 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		984D5471DB62EE36E4599EF9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C92442B82B6C66F18E8C311B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iPokedex/Pods-iPokedex-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E313204427DBAFA6F2200A12 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iPokedex/Pods-iPokedex-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		690078A51D3C2BD800C87E79 /* Sources */ = {
@@ -225,8 +353,19 @@
 			files = (
 				690078E21D3C2E9700C87E79 /* ViewController.m in Sources */,
 				690078DE1D3C2E9700C87E79 /* main.m in Sources */,
+				695B85E91D4FD5D300C74003 /* VFJTypes.m in Sources */,
+				695B85E51D4FD5D300C74003 /* VFJPokemon.m in Sources */,
+				695B85E21D4FD5D300C74003 /* VFJGeneration.m in Sources */,
+				695B85E61D4FD5D300C74003 /* VFJResource.m in Sources */,
+				695B85E11D4FD5D300C74003 /* VFJGameIndices.m in Sources */,
+				695B85E41D4FD5D300C74003 /* VFJNames.m in Sources */,
+				695B85E81D4FD5D300C74003 /* VFJStats.m in Sources */,
+				695B85EA1D4FD5D300C74003 /* VFJVersionGroupDetails.m in Sources */,
+				695B85E01D4FD5D300C74003 /* VFJAbilities.m in Sources */,
+				695B85E31D4FD5D300C74003 /* VFJMoves.m in Sources */,
 				690078E31D3C2E9700C87E79 /* iPokedex.xcdatamodeld in Sources */,
 				690078DD1D3C2E9700C87E79 /* AppDelegate.m in Sources */,
+				695B85E71D4FD5D300C74003 /* VFJSprites.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +475,7 @@
 		};
 		690078C41D3C2BD800C87E79 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73F7F21F05480EFBBB1F8BA6 /* Pods-iPokedex.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -348,6 +488,7 @@
 		};
 		690078C51D3C2BD800C87E79 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3116B47923F063910BF258A9 /* Pods-iPokedex.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -377,6 +518,7 @@
 				690078C51D3C2BD800C87E79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

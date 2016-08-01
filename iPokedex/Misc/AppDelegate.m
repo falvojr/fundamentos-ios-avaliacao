@@ -6,6 +6,7 @@
 //  Copyright © 2016 Cast Group. All rights reserved.
 //
 
+#import <RestKit/RestKit.h>
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
@@ -13,7 +14,6 @@
 @end
 
 @implementation AppDelegate
-
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.

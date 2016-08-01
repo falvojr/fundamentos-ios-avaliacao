@@ -6,7 +6,6 @@
 //
 
 #import "VFJGameIndices.h"
-#import "VFJVersion.h"
 
 @interface VFJGameIndices ()
 
