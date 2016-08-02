@@ -9,10 +9,6 @@
 /* Begin PBXBuildFile section */
 		690078DD1D3C2E9700C87E79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 690078CA1D3C2E9600C87E79 /* AppDelegate.m */; };
 		690078DE1D3C2E9700C87E79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 690078CB1D3C2E9700C87E79 /* main.m */; };
-		690078DF1D3C2E9700C87E79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 690078CD1D3C2E9700C87E79 /* Assets.xcassets */; };
-		690078E01D3C2E9700C87E79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 690078CE1D3C2E9700C87E79 /* LaunchScreen.storyboard */; };
-		690078E11D3C2E9700C87E79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 690078D01D3C2E9700C87E79 /* Main.storyboard */; };
-		690078E21D3C2E9700C87E79 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 690078D61D3C2E9700C87E79 /* ViewController.m */; };
 		690078E31D3C2E9700C87E79 /* iPokedex.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 690078D81D3C2E9700C87E79 /* iPokedex.xcdatamodeld */; };
 		690078E51D3C2ED300C87E79 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 690078E41D3C2ED300C87E79 /* Default-568h@2x.png */; };
 		695B85E01D4FD5D300C74003 /* VFJAbilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 695B85CB1D4FD5D300C74003 /* VFJAbilities.m */; };
@@ -26,21 +22,29 @@
 		695B85E81D4FD5D300C74003 /* VFJStats.m in Sources */ = {isa = PBXBuildFile; fileRef = 695B85DB1D4FD5D300C74003 /* VFJStats.m */; };
 		695B85E91D4FD5D300C74003 /* VFJTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 695B85DD1D4FD5D300C74003 /* VFJTypes.m */; };
 		695B85EA1D4FD5D300C74003 /* VFJVersionGroupDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 695B85DF1D4FD5D300C74003 /* VFJVersionGroupDetails.m */; };
-		8BF60FC76A121477FA2C62D9 /* libPods-iPokedex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 792D62996C97E7C2E17EC00A /* libPods-iPokedex.a */; };
+		69A9D01C1D504DE0008B92B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69A9D0161D504DE0008B92B8 /* Assets.xcassets */; };
+		69A9D01D1D504DE0008B92B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69A9D0181D504DE0008B92B8 /* LaunchScreen.storyboard */; };
+		69A9D01E1D504DE0008B92B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69A9D01A1D504DE0008B92B8 /* Main.storyboard */; };
+		69A9D0301D505427008B92B8 /* VFJAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A9D0211D505427008B92B8 /* VFJAboutViewController.m */; };
+		69A9D0311D505427008B92B8 /* VFJAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69A9D0221D505427008B92B8 /* VFJAboutViewController.xib */; };
+		69A9D0321D505427008B92B8 /* VFJPokemonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69A9D0251D505427008B92B8 /* VFJPokemonCell.xib */; };
+		69A9D0331D505427008B92B8 /* VFJPokemonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A9D0271D505427008B92B8 /* VFJPokemonCell.m */; };
+		69A9D0341D505427008B92B8 /* VFJDownloadImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A9D0291D505427008B92B8 /* VFJDownloadImageView.m */; };
+		69A9D0351D505427008B92B8 /* VFJPokemonDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A9D02B1D505427008B92B8 /* VFJPokemonDetailViewController.m */; };
+		69A9D0361D505427008B92B8 /* VFJPokemonDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69A9D02C1D505427008B92B8 /* VFJPokemonDetailViewController.xib */; };
+		69A9D0371D505427008B92B8 /* VFJPokedexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A9D02E1D505427008B92B8 /* VFJPokedexViewController.m */; };
+		69A9D0381D505427008B92B8 /* VFJPokedexViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69A9D02F1D505427008B92B8 /* VFJPokedexViewController.xib */; };
+		69A9D03D1D50592F008B92B8 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A9D03A1D50592F008B92B8 /* NSString+Utils.m */; };
+		69A9D03E1D50592F008B92B8 /* UIViewController+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A9D03C1D50592F008B92B8 /* UIViewController+Utils.m */; };
+		69A9D0451D506FF6008B92B8 /* VFJPokedexService.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A9D0441D506FF6008B92B8 /* VFJPokedexService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3116B47923F063910BF258A9 /* Pods-iPokedex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPokedex.release.xcconfig"; path = "Pods/Target Support Files/Pods-iPokedex/Pods-iPokedex.release.xcconfig"; sourceTree = "<group>"; };
 		690078A91D3C2BD800C87E79 /* iPokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		690078C71D3C2E9600C87E79 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		690078C91D3C2E9600C87E79 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		690078CA1D3C2E9600C87E79 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		690078CB1D3C2E9700C87E79 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		690078CD1D3C2E9700C87E79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		690078CF1D3C2E9700C87E79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		690078D11D3C2E9700C87E79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		690078D51D3C2E9700C87E79 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		690078D61D3C2E9700C87E79 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		690078D91D3C2E9700C87E79 /* iPokedex.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iPokedex.xcdatamodel; sourceTree = "<group>"; };
 		690078E41D3C2ED300C87E79 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		695B85CA1D4FD5D300C74003 /* VFJAbilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFJAbilities.h; sourceTree = "<group>"; };
@@ -65,8 +69,30 @@
 		695B85DD1D4FD5D300C74003 /* VFJTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFJTypes.m; sourceTree = "<group>"; };
 		695B85DE1D4FD5D300C74003 /* VFJVersionGroupDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFJVersionGroupDetails.h; sourceTree = "<group>"; };
 		695B85DF1D4FD5D300C74003 /* VFJVersionGroupDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFJVersionGroupDetails.m; sourceTree = "<group>"; };
-		73F7F21F05480EFBBB1F8BA6 /* Pods-iPokedex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPokedex.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iPokedex/Pods-iPokedex.debug.xcconfig"; sourceTree = "<group>"; };
-		792D62996C97E7C2E17EC00A /* libPods-iPokedex.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iPokedex.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69A9D0161D504DE0008B92B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69A9D0191D504DE0008B92B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69A9D01B1D504DE0008B92B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69A9D0201D505427008B92B8 /* VFJAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFJAboutViewController.h; sourceTree = "<group>"; };
+		69A9D0211D505427008B92B8 /* VFJAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFJAboutViewController.m; sourceTree = "<group>"; };
+		69A9D0221D505427008B92B8 /* VFJAboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VFJAboutViewController.xib; sourceTree = "<group>"; };
+		69A9D0251D505427008B92B8 /* VFJPokemonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VFJPokemonCell.xib; sourceTree = "<group>"; };
+		69A9D0261D505427008B92B8 /* VFJPokemonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFJPokemonCell.h; sourceTree = "<group>"; };
+		69A9D0271D505427008B92B8 /* VFJPokemonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFJPokemonCell.m; sourceTree = "<group>"; };
+		69A9D0281D505427008B92B8 /* VFJDownloadImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFJDownloadImageView.h; sourceTree = "<group>"; };
+		69A9D0291D505427008B92B8 /* VFJDownloadImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFJDownloadImageView.m; sourceTree = "<group>"; };
+		69A9D02A1D505427008B92B8 /* VFJPokemonDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFJPokemonDetailViewController.h; sourceTree = "<group>"; };
+		69A9D02B1D505427008B92B8 /* VFJPokemonDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFJPokemonDetailViewController.m; sourceTree = "<group>"; };
+		69A9D02C1D505427008B92B8 /* VFJPokemonDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VFJPokemonDetailViewController.xib; sourceTree = "<group>"; };
+		69A9D02D1D505427008B92B8 /* VFJPokedexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFJPokedexViewController.h; sourceTree = "<group>"; };
+		69A9D02E1D505427008B92B8 /* VFJPokedexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFJPokedexViewController.m; sourceTree = "<group>"; };
+		69A9D02F1D505427008B92B8 /* VFJPokedexViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VFJPokedexViewController.xib; sourceTree = "<group>"; };
+		69A9D0391D50592F008B92B8 /* NSString+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utils.h"; sourceTree = "<group>"; };
+		69A9D03A1D50592F008B92B8 /* NSString+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utils.m"; sourceTree = "<group>"; };
+		69A9D03B1D50592F008B92B8 /* UIViewController+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Utils.h"; sourceTree = "<group>"; };
+		69A9D03C1D50592F008B92B8 /* UIViewController+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Utils.m"; sourceTree = "<group>"; };
+		69A9D0411D506454008B92B8 /* VFJPokemonProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFJPokemonProtocol.h; sourceTree = "<group>"; };
+		69A9D0431D506FF6008B92B8 /* VFJPokedexService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFJPokedexService.h; sourceTree = "<group>"; };
+		69A9D0441D506FF6008B92B8 /* VFJPokedexService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFJPokedexService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,38 +100,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BF60FC76A121477FA2C62D9 /* libPods-iPokedex.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		21105181B36CB4235B2E8A36 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				792D62996C97E7C2E17EC00A /* libPods-iPokedex.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		60EB4B77CCAFB099C8AD94E1 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				73F7F21F05480EFBBB1F8BA6 /* Pods-iPokedex.debug.xcconfig */,
-				3116B47923F063910BF258A9 /* Pods-iPokedex.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		690078A01D3C2BD800C87E79 = {
 			isa = PBXGroup;
 			children = (
 				690078E41D3C2ED300C87E79 /* Default-568h@2x.png */,
 				690078AB1D3C2BD800C87E79 /* iPokedex */,
 				690078AA1D3C2BD800C87E79 /* Products */,
-				60EB4B77CCAFB099C8AD94E1 /* Pods */,
-				21105181B36CB4235B2E8A36 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -149,9 +155,8 @@
 		690078CC1D3C2E9700C87E79 /* Res */ = {
 			isa = PBXGroup;
 			children = (
-				690078CD1D3C2E9700C87E79 /* Assets.xcassets */,
-				690078CE1D3C2E9700C87E79 /* LaunchScreen.storyboard */,
-				690078D01D3C2E9700C87E79 /* Main.storyboard */,
+				69A9D0151D504DE0008B92B8 /* Images */,
+				69A9D0171D504DE0008B92B8 /* UI */,
 			);
 			path = Res;
 			sourceTree = "<group>";
@@ -159,6 +164,8 @@
 		690078D21D3C2E9700C87E79 /* Src */ = {
 			isa = PBXGroup;
 			children = (
+				69A9D0421D506FF6008B92B8 /* Services */,
+				69A9D03F1D506350008B92B8 /* Protocols */,
 				695B85C91D4FD5D300C74003 /* Models */,
 				690078D31D3C2E9700C87E79 /* Categories */,
 				690078D41D3C2E9700C87E79 /* Controllers */,
@@ -171,6 +178,10 @@
 		690078D31D3C2E9700C87E79 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				69A9D0391D50592F008B92B8 /* NSString+Utils.h */,
+				69A9D03A1D50592F008B92B8 /* NSString+Utils.m */,
+				69A9D03B1D50592F008B92B8 /* UIViewController+Utils.h */,
+				69A9D03C1D50592F008B92B8 /* UIViewController+Utils.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -178,8 +189,8 @@
 		690078D41D3C2E9700C87E79 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				690078D51D3C2E9700C87E79 /* ViewController.h */,
-				690078D61D3C2E9700C87E79 /* ViewController.m */,
+				69A9D01F1D505427008B92B8 /* About */,
+				69A9D0231D505427008B92B8 /* Pokedex */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -228,6 +239,76 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		69A9D0151D504DE0008B92B8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				69A9D0161D504DE0008B92B8 /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		69A9D0171D504DE0008B92B8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				69A9D0181D504DE0008B92B8 /* LaunchScreen.storyboard */,
+				69A9D01A1D504DE0008B92B8 /* Main.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		69A9D01F1D505427008B92B8 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				69A9D0201D505427008B92B8 /* VFJAboutViewController.h */,
+				69A9D0211D505427008B92B8 /* VFJAboutViewController.m */,
+				69A9D0221D505427008B92B8 /* VFJAboutViewController.xib */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		69A9D0231D505427008B92B8 /* Pokedex */ = {
+			isa = PBXGroup;
+			children = (
+				69A9D0241D505427008B92B8 /* Cells */,
+				69A9D02A1D505427008B92B8 /* VFJPokemonDetailViewController.h */,
+				69A9D02B1D505427008B92B8 /* VFJPokemonDetailViewController.m */,
+				69A9D02C1D505427008B92B8 /* VFJPokemonDetailViewController.xib */,
+				69A9D02D1D505427008B92B8 /* VFJPokedexViewController.h */,
+				69A9D02E1D505427008B92B8 /* VFJPokedexViewController.m */,
+				69A9D02F1D505427008B92B8 /* VFJPokedexViewController.xib */,
+			);
+			path = Pokedex;
+			sourceTree = "<group>";
+		};
+		69A9D0241D505427008B92B8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				69A9D0251D505427008B92B8 /* VFJPokemonCell.xib */,
+				69A9D0261D505427008B92B8 /* VFJPokemonCell.h */,
+				69A9D0271D505427008B92B8 /* VFJPokemonCell.m */,
+				69A9D0281D505427008B92B8 /* VFJDownloadImageView.h */,
+				69A9D0291D505427008B92B8 /* VFJDownloadImageView.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		69A9D03F1D506350008B92B8 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				69A9D0411D506454008B92B8 /* VFJPokemonProtocol.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		69A9D0421D506FF6008B92B8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				69A9D0431D506FF6008B92B8 /* VFJPokedexService.h */,
+				69A9D0441D506FF6008B92B8 /* VFJPokedexService.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -235,12 +316,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 690078C31D3C2BD800C87E79 /* Build configuration list for PBXNativeTarget "iPokedex" */;
 			buildPhases = (
-				984D5471DB62EE36E4599EF9 /* Check Pods Manifest.lock */,
 				690078A51D3C2BD800C87E79 /* Sources */,
 				690078A61D3C2BD800C87E79 /* Frameworks */,
 				690078A71D3C2BD800C87E79 /* Resources */,
-				E313204427DBAFA6F2200A12 /* Embed Pods Frameworks */,
-				C92442B82B6C66F18E8C311B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -289,82 +367,45 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				690078E01D3C2E9700C87E79 /* LaunchScreen.storyboard in Resources */,
-				690078DF1D3C2E9700C87E79 /* Assets.xcassets in Resources */,
+				69A9D01D1D504DE0008B92B8 /* LaunchScreen.storyboard in Resources */,
+				69A9D0361D505427008B92B8 /* VFJPokemonDetailViewController.xib in Resources */,
+				69A9D0381D505427008B92B8 /* VFJPokedexViewController.xib in Resources */,
+				69A9D01C1D504DE0008B92B8 /* Assets.xcassets in Resources */,
+				69A9D0311D505427008B92B8 /* VFJAboutViewController.xib in Resources */,
 				690078E51D3C2ED300C87E79 /* Default-568h@2x.png in Resources */,
-				690078E11D3C2E9700C87E79 /* Main.storyboard in Resources */,
+				69A9D0321D505427008B92B8 /* VFJPokemonCell.xib in Resources */,
+				69A9D01E1D504DE0008B92B8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		984D5471DB62EE36E4599EF9 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		C92442B82B6C66F18E8C311B /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iPokedex/Pods-iPokedex-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E313204427DBAFA6F2200A12 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iPokedex/Pods-iPokedex-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		690078A51D3C2BD800C87E79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				690078E21D3C2E9700C87E79 /* ViewController.m in Sources */,
+				69A9D0371D505427008B92B8 /* VFJPokedexViewController.m in Sources */,
 				690078DE1D3C2E9700C87E79 /* main.m in Sources */,
 				695B85E91D4FD5D300C74003 /* VFJTypes.m in Sources */,
 				695B85E51D4FD5D300C74003 /* VFJPokemon.m in Sources */,
 				695B85E21D4FD5D300C74003 /* VFJGeneration.m in Sources */,
 				695B85E61D4FD5D300C74003 /* VFJResource.m in Sources */,
 				695B85E11D4FD5D300C74003 /* VFJGameIndices.m in Sources */,
+				69A9D0451D506FF6008B92B8 /* VFJPokedexService.m in Sources */,
+				69A9D03D1D50592F008B92B8 /* NSString+Utils.m in Sources */,
 				695B85E41D4FD5D300C74003 /* VFJNames.m in Sources */,
+				69A9D0351D505427008B92B8 /* VFJPokemonDetailViewController.m in Sources */,
+				69A9D03E1D50592F008B92B8 /* UIViewController+Utils.m in Sources */,
+				69A9D0341D505427008B92B8 /* VFJDownloadImageView.m in Sources */,
 				695B85E81D4FD5D300C74003 /* VFJStats.m in Sources */,
 				695B85EA1D4FD5D300C74003 /* VFJVersionGroupDetails.m in Sources */,
+				69A9D0331D505427008B92B8 /* VFJPokemonCell.m in Sources */,
 				695B85E01D4FD5D300C74003 /* VFJAbilities.m in Sources */,
 				695B85E31D4FD5D300C74003 /* VFJMoves.m in Sources */,
 				690078E31D3C2E9700C87E79 /* iPokedex.xcdatamodeld in Sources */,
 				690078DD1D3C2E9700C87E79 /* AppDelegate.m in Sources */,
+				69A9D0301D505427008B92B8 /* VFJAboutViewController.m in Sources */,
 				695B85E71D4FD5D300C74003 /* VFJSprites.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,18 +413,18 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		690078CE1D3C2E9700C87E79 /* LaunchScreen.storyboard */ = {
+		69A9D0181D504DE0008B92B8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				690078CF1D3C2E9700C87E79 /* Base */,
+				69A9D0191D504DE0008B92B8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		690078D01D3C2E9700C87E79 /* Main.storyboard */ = {
+		69A9D01A1D504DE0008B92B8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				690078D11D3C2E9700C87E79 /* Base */,
+				69A9D01B1D504DE0008B92B8 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -475,7 +516,6 @@
 		};
 		690078C41D3C2BD800C87E79 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73F7F21F05480EFBBB1F8BA6 /* Pods-iPokedex.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -488,7 +528,6 @@
 		};
 		690078C51D3C2BD800C87E79 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3116B47923F063910BF258A9 /* Pods-iPokedex.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";

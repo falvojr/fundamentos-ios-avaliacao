@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="127" id="TbA-tW-hsD" customClass="VFJPokemonCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="101"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="TbA-tW-hsD" id="xcW-PL-4v7">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6ZB-xz-mPO" customClass="VFJDownloadImageView">
+                        <rect key="frame" x="0.0" y="0.0" width="115" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="115" id="Hbh-Y4-anS"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="txP-59-miW">
+                        <rect key="frame" x="142" y="8" width="170" height="84"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="6ZB-xz-mPO" firstAttribute="top" secondItem="xcW-PL-4v7" secondAttribute="top" id="0So-Uu-j5l"/>
+                    <constraint firstItem="txP-59-miW" firstAttribute="leading" secondItem="6ZB-xz-mPO" secondAttribute="trailing" constant="27" id="1M2-8s-5y5"/>
+                    <constraint firstItem="txP-59-miW" firstAttribute="top" secondItem="xcW-PL-4v7" secondAttribute="topMargin" id="HYH-SM-pGB"/>
+                    <constraint firstItem="6ZB-xz-mPO" firstAttribute="leading" secondItem="xcW-PL-4v7" secondAttribute="leading" id="Ts2-j9-M2U"/>
+                    <constraint firstAttribute="bottom" secondItem="6ZB-xz-mPO" secondAttribute="bottom" id="g4O-My-thS"/>
+                    <constraint firstItem="txP-59-miW" firstAttribute="trailing" secondItem="xcW-PL-4v7" secondAttribute="trailingMargin" id="lF7-UY-j2K"/>
+                    <constraint firstItem="txP-59-miW" firstAttribute="centerY" secondItem="6ZB-xz-mPO" secondAttribute="centerY" id="v9E-wL-WWw"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imageViewCar" destination="6ZB-xz-mPO" id="79Y-dm-jxm"/>
+                <outlet property="imageViewPokemon" destination="6ZB-xz-mPO" id="Hnt-3K-Fbq"/>
+                <outlet property="lblName" destination="txP-59-miW" id="xfu-KV-j5H"/>
+            </connections>
+            <point key="canvasLocation" x="433" y="177.5"/>
+        </tableViewCell>
+    </objects>
+</document>

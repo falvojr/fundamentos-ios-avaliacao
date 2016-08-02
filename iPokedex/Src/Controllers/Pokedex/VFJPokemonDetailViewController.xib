@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VFJPokemonDetailViewController">
+            <connections>
+                <outlet property="imageView" destination="ZPH-ad-1T3" id="Lbp-Qg-LhM"/>
+                <outlet property="textView" destination="GeQ-eu-Wk4" id="YX1-LU-x4u"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZPH-ad-1T3" customClass="VFJDownloadImageView">
+                    <rect key="frame" x="8" y="80" width="304" height="225"/>
+                </imageView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="GeQ-eu-Wk4">
+                    <rect key="frame" x="8" y="313" width="304" height="186"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="186" id="iW9-sQ-5t6"/>
+                    </constraints>
+                    <string key="text">Aqui é Body Builder Ipsum PORRA! Ajuda o maluco que tá doente. Negativa Bambam negativa. É 37 anos caralho! Boraaa, Hora do Show Porra. Vai subir árvore é o caralho porra! Sabe o que é isso daí? Trapézio descendente é o nome disso aí.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="GeQ-eu-Wk4" firstAttribute="top" secondItem="ZPH-ad-1T3" secondAttribute="bottom" constant="8" symbolic="YES" id="1Cg-La-Xxk"/>
+                <constraint firstItem="GeQ-eu-Wk4" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailingMargin" id="CQb-Zl-7iu"/>
+                <constraint firstItem="GeQ-eu-Wk4" firstAttribute="leading" secondItem="ZPH-ad-1T3" secondAttribute="leading" id="RYN-x5-oVe"/>
+                <constraint firstItem="ZPH-ad-1T3" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="80" id="aAQ-hr-CEF"/>
+                <constraint firstItem="GeQ-eu-Wk4" firstAttribute="trailing" secondItem="ZPH-ad-1T3" secondAttribute="trailing" id="sse-ju-eG9"/>
+                <constraint firstAttribute="bottom" secondItem="GeQ-eu-Wk4" secondAttribute="bottom" constant="69" id="u2D-lP-fDh"/>
+                <constraint firstItem="GeQ-eu-Wk4" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leadingMargin" id="xmS-vS-0ba"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>

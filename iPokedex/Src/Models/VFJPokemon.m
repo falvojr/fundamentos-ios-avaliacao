@@ -13,4 +13,12 @@
 
 @implementation VFJPokemon
 
++ (NSString*) getDynamicImageUrl{
+    return nil;
+}
+
++ (NSString*) getStaticImageUrl{
+    return nil;
+}
+
 @end

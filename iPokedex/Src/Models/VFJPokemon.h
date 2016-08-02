@@ -6,10 +6,18 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "NSString+Utils.h"
+#import "VFJPokemonProtocol.h"
 
 @class VFJSprites, VFJResource;
 
-@interface VFJPokemon : NSObject
+//implmentando enum, normalmente ele fica no .h da classe que ele pertence
+typedef NS_ENUM(NSUInteger, PokemonClass) {
+    PokemonClassNormal,
+    PokemonClassLegendary,
+};
+
+@interface VFJPokemon : NSObject<VFJPokemonProtocol>
 
 @property (nonatomic, assign) double internalBaseClassIdentifier;
 @property (nonatomic, strong) NSString *locationAreaEncounters;

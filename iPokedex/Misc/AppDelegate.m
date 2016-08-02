@@ -6,8 +6,9 @@
 //  Copyright © 2016 Cast Group. All rights reserved.
 //
 
-#import <RestKit/RestKit.h>
 #import "AppDelegate.h"
+#import "VFJPokedexViewController.h"
+#import "VFJAboutViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,39 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //Criando a window
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    //Criando as view controllers
+    //recuperando NIB (XIB) pelo nome da classe automaticamente
+    VFJPokedexViewController *listacarros = [[VFJPokedexViewController alloc] init];
+    VFJAboutViewController *sobre = [[VFJAboutViewController alloc] init];
+    
+    //Criando as navigations controllers
+    UINavigationController *nav1 = [[UINavigationController alloc] init];
+    UINavigationController *nav2 = [[UINavigationController alloc] init];
+    
+    //Atribuindo as view controllers dentro das navigations
+    [nav1 pushViewController:listacarros animated:NO];
+    [nav2 pushViewController:sobre animated:NO];
+    
+    
+    //Criando a TabBar
+    UITabBarController *tabController = [[UITabBarController alloc] init];
+    [tabController addChildViewController:nav1];
+    [tabController addChildViewController:nav2];
+    
+    //Configurando os item da TabBar
+    nav1.tabBarItem.title = @"Pokedex";
+    nav1.tabBarItem.image = [UIImage imageNamed:@"tab_pokedex.png"];
+    nav2.tabBarItem.title = @"Sobre";
+    nav2.tabBarItem.image = [UIImage imageNamed:@"tab_about.png"];
+    
+    //Configura o UITabBarController como o view controller principal
+    self.window.rootViewController = tabController;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
@@ -31,7 +65,7 @@
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
-    // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+    // Called as part of the transition from the background to the inacÂtive state; here you can undo many of the changes made on entering the background.
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
