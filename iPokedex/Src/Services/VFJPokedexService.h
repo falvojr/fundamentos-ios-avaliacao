@@ -12,6 +12,6 @@
 @interface VFJPokedexService : NSObject
 
 - (NSArray<VFJPokemon*>*) findPokemons;
-- (NSArray<VFJPokemon*>*) findPokemonsByType:(NSString*)type;
+- (NSArray<VFJPokemon*>*) findPokemonsByType:(PokemonClass)type;
 
 @end

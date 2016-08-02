@@ -24,7 +24,7 @@
     return pokemons;
 }
 
-- (NSArray<VFJPokemon*>*) findPokemonsByType:(NSString*)type{
+- (NSArray<VFJPokemon*>*) findPokemonsByType:(PokemonClass)type{
     //PICXmlCarParser *parser = [PICXmlCarParser new];
     //NSString * fileName = [@"carros_" concat:type];
     //NSString *path = [[NSBundle mainBundle] pathForResource:fileName ofType:@"xml"];

@@ -18,7 +18,7 @@
     VFJPokedexService *service;
 }
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
-@property (strong, nonatomic) NSString *carType;
+@property (nonatomic, assign) PokemonClass pokemonClass;
 
 @end
 
@@ -37,7 +37,7 @@ static NSString* cellIdentifier = @"Cell";
     [self.tableView registerNib:nib forCellReuseIdentifier:cellIdentifier];
     
     service = [VFJPokedexService new];
-    self.carType = @"classicos";
+    self.pokemonClass = PokemonClassNormal;
     [self findCars];
 }
 
@@ -82,13 +82,10 @@ static NSString* cellIdentifier = @"Cell";
 - (IBAction)changeCarType:(UISegmentedControl*)sender {
     switch (sender.selectedSegmentIndex) {
         case 0:
-            self.carType = @"classicos";
+            self.pokemonClass = PokemonClassNormal;
             break;
         case 1:
-            self.carType = @"esportivos";
-            break;
-        case 2:
-            self.carType = @"luxo";
+            self.pokemonClass = PokemonClassLegendary;
             break;
         default:
             break;
@@ -97,7 +94,7 @@ static NSString* cellIdentifier = @"Cell";
 }
 
 - (void) findCars {
-    carList =[service findPokemonsByType:self.carType];
+    carList =[service findPokemonsByType:self.pokemonClass];
     [self.tableView reloadData];
 }
 
